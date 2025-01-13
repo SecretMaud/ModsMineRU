@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background-color: #000000; /* Черный цвет фона */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.rectangle {
+    flex: 1;
+    border: 1px solid #fff; /* Белая граница для наглядности */
+}
