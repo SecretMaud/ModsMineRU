@@ -1,18 +1,39 @@
 body {
     margin: 0;
-    background-color: #000000; /* Черный цвет фона */
+    background: linear-gradient(to bottom, blue, red, yellow); /* Градиентный фон от синего к красному и желтому */
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 100vh;
 }
 header {
     background-color: #333; /* Цвет фона для шапки */
+    width: 100%;
     padding: 0;
     text-align: center;
 }
 header img {
-    width: 896px; /* Уменьшенная ширина */
-    height: 512px; /* Уменьшенная высота */
-    max-width: 100%;
-    height: auto;
+    width: 50%; /* Уменьшенная ширина до 50% от ширины экрана */
+    height: auto; /* Автоматическое изменение высоты */
+    max-width: 896px; /* Максимальная ширина */
+}
+nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0;
+}
+nav ul li {
+    display: inline; /* Отображаем элементы списка в одну строку */
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white; /* Цвет текста ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.section {
+    width: 50%;
+    height: 300px;
+    background-color: #fff; /* Белый цвет фона раздела */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px; /* Закругление углов */
 }
