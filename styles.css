@@ -15,7 +15,7 @@ header {
     margin-top: 20px; /* Добавляем отступ сверху */
 }
 .colored-text {
-    font-family: Arial, sans-serif; /* Устанавливаем красивый шрифт */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Устанавливаем новый шрифт для заголовка */
     font-size: 48px; /* Размер текста */
     font-weight: bold;
     letter-spacing: 5px; /* Расстояние между буквами */
