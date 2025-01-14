@@ -35,11 +35,22 @@ header {
 .colored-text span:nth-child(10) { color: #1E90FF; } /* U - голубой */
 .section {
     width: 50%;
-    height: 300px;
     background-color: #808080; /* Серый цвет фона раздела */
     margin: 20px 0;
     padding: 20px;
     border-radius: 8px; /* Закругление углов */
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
 }
 
 /* Стили бокового меню */
