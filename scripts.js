@@ -1,7 +1,8 @@
-function openNav() {
-    document.getElementById("sidebar").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("sidebar").style.width = "0";
+.section {
+    width: 50%;
+    height: 300px;
+    background-color: #808080; /* Серый цвет фона раздела */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px; /* Закругление углов */
 }
