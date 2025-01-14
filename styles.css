@@ -72,6 +72,17 @@ header {
     font-size: 36px;
     margin-left: 50px;
 }
+#sidebar .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+}
+#sidebar .line {
+    width: 35px;
+    height: 5px;
+    background-color: #818181;
+}
 
 /* Кнопка для открытия бокового меню */
 #openBtn {
