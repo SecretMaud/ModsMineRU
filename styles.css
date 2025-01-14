@@ -7,15 +7,15 @@ body {
     min-height: 100vh;
 }
 header {
-    background-color: #333; /* Цвет фона для шапки */
     width: 100%;
     padding: 0;
     text-align: center;
+    background: none; /* Убираем фон */
 }
 header img {
-    width: 50%; /* Уменьшенная ширина до 50% от ширины экрана */
+    width: 25%; /* Уменьшенная ширина до 25% от ширины экрана */
     height: auto; /* Автоматическое изменение высоты */
-    max-width: 896px; /* Максимальная ширина */
+    max-width: 448px; /* Максимальная ширина */
 }
 nav ul {
     list-style: none; /* Убираем маркеры списка */
