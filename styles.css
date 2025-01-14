@@ -38,3 +38,44 @@ nav ul li a {
     padding: 20px;
     border-radius: 8px; /* Закругление углов */
 }
+
+/* Стили бокового меню */
+#sidebar {
+    height: 100%; /* Полная высота */
+    width: 0; /* Начальная ширина */
+    position: fixed; /* Фиксированное положение */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Темный фон */
+    overflow-x: hidden; /* Отключение горизонтальной прокрутки */
+    transition: 0.5s; /* Плавный переход */
+    padding-top: 60px; /* Отступ сверху */
+}
+#sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+#sidebar a:hover {
+    color: #f1f1f1;
+}
+#sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Кнопка для открытия бокового меню */
+#openBtn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
