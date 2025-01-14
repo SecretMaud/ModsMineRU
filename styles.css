@@ -11,6 +11,7 @@ header {
     padding: 0;
     text-align: center;
     background: none; /* Убираем фон */
+    margin-top: 20px; /* Добавляем отступ сверху */
 }
 header img {
     width: 25%; /* Уменьшенная ширина до 25% от ширины экрана */
