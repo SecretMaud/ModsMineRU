@@ -25,5 +25,28 @@
     <div id="section3" class="section">Содержимое Раздела 3</div>
     <div id="section4" class="section">Содержимое Раздела 4</div>
     <div id="section5" class="section">Содержимое Раздела 5</div>
+
+    <!-- Боковое меню -->
+    <div id="sidebar">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#section1">Раздел 1</a>
+        <a href="#section2">Раздел 2</a>
+        <a href="#section3">Раздел 3</a>
+        <a href="#section4">Раздел 4</a>
+        <a href="#section5">Раздел 5</a>
+    </div>
+
+    <!-- Кнопка для открытия бокового меню -->
+    <div id="openBtn" onclick="openNav()">&#9776;</div>
+
+    <script>
+        function openNav() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    </script>
 </body>
 </html>
