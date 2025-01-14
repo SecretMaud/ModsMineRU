@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: #fff; /* Белый фон для всего тела страницы */
+    background: url('path-to-your-image.jpg') no-repeat center center fixed; /* Путь к твоему изображению */
+    background-size: cover; /* Масштабирование изображения для покрытия всего экрана */
     display: flex;
     flex-direction: column;
     align-items: center;
